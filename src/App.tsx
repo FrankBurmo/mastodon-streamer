@@ -12,7 +12,12 @@ function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const socket = io(WEBSOCKET_URL);
+    const socket = io(WEBSOCKET_URL, {
+      transports: ['websocket'],
+      upgrade: false,
+      reconnectionAttempts: 5,
+      reconnectionDelay: 1000,
+    });
 
     socket.on('connect', () => {
       console.log('Connected to WebSocket server');
@@ -32,11 +37,11 @@ function App() {
     });
 
     socket.on('initial_posts', (initialPosts: MastodonPost[]) => {
-      setPosts(initialPosts);
+      //setPosts(initialPosts);
     });
 
     socket.on('mastodon_post', (post: MastodonPost) => {
-      setPosts((prevPosts) => [post, ...prevPosts.slice(0, 99)]);
+      setPosts((prevPosts) => [post, ...prevPosts.slice(0, 40)]);
     });
 
     return () => {
