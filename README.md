@@ -2,6 +2,9 @@
 
 This project is a real-time Mastodon post streaming application built with React, TypeScript, and Node.js. It uses WebSockets to stream public posts from a Mastodon instance in near real-time, with a fallback to polling if WebSocket connection fails.
 
+![image](https://github.com/user-attachments/assets/b1162631-bf7c-4c6d-81a7-a47ad8923e3e)
+
+
 ## Architecture
 
 The application consists of two main components:
