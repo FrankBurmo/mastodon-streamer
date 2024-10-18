@@ -25,7 +25,7 @@ Both components are containerized using Docker for easy deployment and scaling.
 - Docker
 - Docker Compose
 
-## Environment variables
+## Environment variables for the backend
 
 ```
 MASTODON_SERVER=https://mastodon.social
