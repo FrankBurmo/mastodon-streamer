@@ -68,7 +68,7 @@ To run the application in development mode:
 
 ## Deployment
 
-The application is ready for deployment using Docker. You can deploy it to any cloud platform that supports Docker containers, such as AWS ECS, Google Cloud Run, or DigitalOcean App Platform.
+The application is ready for deployment using Docker. You can deploy it to any cloud platform that supports Docker containers, such as Azure, AWS ECS, Google Cloud Run, or DigitalOcean App Platform.
 
 ## Error Handling
 
@@ -80,8 +80,6 @@ The application implements robust error handling:
 
 ## Future Improvements
 
-- Add authentication for private Mastodon instances
-- Implement infinite scrolling for older posts
 - Add search functionality
 - Improve error handling and reconnection logic
 - Implement caching for better performance
