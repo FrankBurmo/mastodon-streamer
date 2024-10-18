@@ -25,11 +25,18 @@ Both components are containerized using Docker for easy deployment and scaling.
 - Docker
 - Docker Compose
 
+## Environment variables
+
+```
+MASTODON_SERVER=https://mastodon.social
+MASTODON_ACCESS_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <--- Use your own token
+```
+
 ## Getting Started
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/mastodon-stream-app.git
+   git clone https://github.com/frankburmo/mastodon-stream-app.git
    cd mastodon-stream-app
    ```
 
