@@ -1,0 +1,16 @@
+{
+  "name": "mastodon-stream-backend",
+  "version": "1.0.0",
+  "description": "Backend for Mastodon Stream Application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.7.4",
+    "node-fetch": "^3.2.0",
+    "ws": "^8.5.0"
+  }
+}
