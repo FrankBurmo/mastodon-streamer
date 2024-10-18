@@ -36,8 +36,8 @@ MASTODON_ACCESS_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <--- Use your own tok
 
 1. Clone the repository:
    ```
-   git clone https://github.com/frankburmo/mastodon-stream-app.git
-   cd mastodon-stream-app
+   git clone https://github.com/FrankBurmo/mastodon-streamer.git
+   cd mastodon-streamer
    ```
 
 2. Build and run the application using Docker Compose:
